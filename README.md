@@ -1,1 +1,1 @@
-# finprosjekt
+# fintprosjekt
