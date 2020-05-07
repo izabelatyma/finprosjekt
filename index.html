@@ -1,18 +1,38 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Nettsiden spa</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <img class="bilde" src="img/bbb.jpeg" alt="Foto">
-    <h1>Barnas spa</h1>
-    <h2>Her lærer vi om viktige ting</h2><br>
-    <a class="link" href="https://www.filmweb.pl/serial/Wielkie+k%C5%82amstewka-2017-745557">Link til Filmweb</a>
-    <br>
-    <p class="rosa">Agurk terapi</p><br>
-    <p class="tekst">Bli med, dette blir bra :)</p><br>
-    <p>mmmmmmmmmmmm</p><br>
-  </body>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<table>
+		<tr>
+			<td class="cell" id="0"></td>
+			<td class="cell" id="1"></td>
+			<td class="cell" id="2"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="3"></td>
+			<td class="cell" id="4"></td>
+			<td class="cell" id="5"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="6"></td>
+			<td class="cell" id="7"></td>
+			<td class="cell" id="8"></td>
+		</tr>
+	</table>
+	<div class="endgame">
+		<div class="text"></div>
+	</div>
+	<button onClick="startGame()">Replay</button>
+
+  <script src="script.js"></script>
+</body>
 </html>
